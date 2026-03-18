@@ -1,0 +1,31 @@
+#program to add two numbers
+a=10
+b=20
+sum=a+b
+print("first number:",a)
+print("second number:",b)
+print("sum=",sum)
+
+#program to demonstrate type casting
+a=10
+b=float(a)
+print("original value:",a)
+print("after type casting to float:"b)
+print("type of b:",type(b))
+
+#program to declare variables and show their types
+a=10
+b=3.5
+c="python"
+d=true
+print(a,type(A))
+print("value of b:", b,"types:", type(b))
+print("value" of c , "types:" , type(c))
+print("value of d:", d:", d, "tytpe:, type(d))
+
+#program to demonstrate logical operators 
+a=10
+b=5
+print("a<5 and b>2:",a>5andb>2)
+print("a>5 or b>10:", a>5 or b>10)
+print("not(a>5):",not(a>5))
