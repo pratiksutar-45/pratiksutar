@@ -1,0 +1,47 @@
+#WAP to find greatest of 3 numbers 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+    print("Greatest number is:", a)
+elif b >= a and b >= c:
+    print("Greatest number is:", b)
+else:
+    print("Greatest number is:", c)
+
+#WAP to check whether a number is odd or even
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+#C program to check uppercase or lowercase alphabet 
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    if (ch >= 'A' && ch <= 'Z')
+        printf("Uppercase alphabet");
+    else if (ch >= 'a' && ch <= 'z')
+        printf("Lowercase alphabet");
+    else
+        printf("Not an alphabet");
+
+    return 0;
+}
+
+#WAP to check whether input is number or character
+ch = input("Enter any input: ")
+
+if ch.isdigit():
+    print("It is a number")
+elif ch.isalpha():
+    print("It is a character")
+else:
+    print("It is neither number nor character")
