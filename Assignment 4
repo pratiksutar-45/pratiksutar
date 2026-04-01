@@ -1,0 +1,25 @@
+
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+sum = 0
+for i in range(1, 11):
+    if i % 2 != 0:
+        sum += i
+print("Sum of odd numbers:", sum)
+
+a, b = 0, 1
+while a <= 50:
+    print(a, end=" ")
+    a, b = b, a + b
+
+
+string = input("Enter a string: ")
+
+result = ""
+for i in range(len(string)):
+    if i % 2 == 0:
+        result += string[i]
+
+print("Result:", result)
