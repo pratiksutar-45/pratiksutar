@@ -1,0 +1,52 @@
+a=(1,2,3,4,5,6,7,8,9,10)
+b=(11,12,13,14,15,16,17,18,19,20)
+print(a)
+print(b)
+
+#to check the length
+print(len(a))
+print(len(b))
+
+#concatenation
+c=a+b
+print(c)
+
+#repetition
+print((5,)*4)
+
+#membership
+print(59 in(c))
+
+#indexing
+print("first element:",c[0])
+
+#negative indexing
+print("last element:",c[-9])
+
+#slicing
+print("c[1:9]:", c[1:9])
+
+#iteration
+for i in c:
+    print(i)
+
+# Immutable (cannot change)
+try:
+    c[0] = 10
+except TypeError:
+    print("Tuples are immutable")
+
+# Deletion
+del c
+print("Tuple deleted")
+
+c = (5,10,15,20)
+
+print("Length:", len(c))
+print("Maximum:", max(c))
+print("Minimum:", min(c))
+
+# Convert list to tuple
+list1 = [1,2,3,4]
+new_tuple = tuple(list1)
+print("Converted tuple:", new_tuple)
